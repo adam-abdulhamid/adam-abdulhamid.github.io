@@ -2,7 +2,7 @@
 title = 'About'
 +++
 
-I am a machine learning engineer currently focused on building self-driving cars at Cruise. Past includes: Stanford B.S./M.S. in Computer Science, MLE @ LinkedIn, and a lot of water polo.
+I am a machine learning engineer currently focused on building self-driving cars at Cruise. Past includes: Stanford B.S./M.S. in Computer Science, MLE @ LinkedIn, and water polo.
 
 ## 2019 - Present
 {{< image src="images/cruise_logo.png" alt="Cruise" width="50" height="50" >}}
