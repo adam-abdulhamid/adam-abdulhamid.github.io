@@ -2,11 +2,17 @@
 title = 'About'
 +++
 
-I am a machine learning engineer currently focused on building self-driving cars at Cruise. Past includes: Stanford B.S./M.S. in Computer Science, MLE @ LinkedIn, and water polo.
+I'm an applied AI scientist currently building self-driving cars at Wayve. Past includes: AI @ Cruise, Stanford Computer Science B.S./M.S., MLE @ LinkedIn, and water polo.
 
-## 2019 - Present
+## 2025 - Present
+{{< image src="images/wayve_technologies_logo.jpeg" alt="Wayve" width="50" height="50" >}}
+I am an applied AI scientist at [Wayve](https://wayve.ai/), helping the Embodied AI organization develop and deploy [AV2.0](https://wayve.ai/technology/#AV2.0) technologies. I am particularly interested in how to leverage physical world data to build strong and generalizeable world models to solve the self-driving task.
+
+You can find more research about how Wayve leverages generative video and language models to aid in simulation, testing, and understanding of self-driving systems [here](https://wayve.ai/science/).  
+
+## 2019 - 2025
 {{< image src="images/cruise_logo.png" alt="Cruise" width="50" height="50" >}}
-I am an ML Engineer at [Cruise](https://getcruise.com/), where I have worked on two primary domains: trajectory prediction and trajectory planning. I spent the first couple of years here focused on trajectory prediction. You can see some highlights in this [blog post](https://medium.com/cruise/cruise-continuous-learning-machine-30d60f4c691b).
+I spent 5.5 years as an ML Engineer at [Cruise](https://getcruise.com/), where I worked on two primary domains: trajectory prediction and trajectory planning. I spent the first couple of years here focused on trajectory prediction. You can see some highlights in this [blog post](https://medium.com/cruise/cruise-continuous-learning-machine-30d60f4c691b).
 
 
 After that, I transitioned and have been focused on trajectory planning and scoring of AV behavior. We leverage a variety of ML based tools in the supervised learning domains as well as the reinforcement learning domains. 

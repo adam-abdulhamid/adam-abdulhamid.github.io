@@ -18,7 +18,7 @@ params:
   profileMode:
     enabled: true
     title: Adam Abdulhamid
-    subtitle: "I am a machine learning engineer currently focused on building self-driving cars at Cruise. Past includes: Stanford B.S./M.S. in Computer Science, MLE @ LinkedIn, and water polo."
+    subtitle: "I'm an applied AI scientist currently building self-driving cars at Wayve. Past includes: AI @ Cruise, Stanford Computer Science B.S./M.S., MLE @ LinkedIn, and water polo."
     imageUrl: "images/me.jpeg"
     imageTitle: Profile Picture
     imageWidth: 240
@@ -29,6 +29,8 @@ params:
       - name: Posts
         url: "/posts"
   socialIcons:
+    - name: "email"
+      url: "mailto:adam.m.abdulhamid@gmail.com"
     - name: "LinkedIn"
       url: "https://www.linkedin.com/in/adam-abdulhamid-2635b054/"
     - name: "Twitter"
