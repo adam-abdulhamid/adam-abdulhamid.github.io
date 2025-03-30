@@ -19,7 +19,7 @@ params:
     enabled: true
     title: Adam Abdulhamid
     subtitle: "I'm an applied AI scientist currently building self-driving cars at Wayve. Past includes: AI @ Cruise, Stanford Computer Science B.S./M.S., MLE @ LinkedIn, and water polo."
-    imageUrl: "images/me.jpeg"
+    imageUrl: "images/me.png"
     imageTitle: Profile Picture
     imageWidth: 240
     imageHeight: 240
