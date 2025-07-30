@@ -1,0 +1,30 @@
+---
+import BaseLayout from './BaseLayout.astro';
+
+const { frontmatter } = Astro.props;
+const { title, pubDate, description } = frontmatter;
+---
+
+<BaseLayout title={title}>
+  <article class="max-w-3xl">
+    <header class="mb-8">
+      <h1 class="text-3xl font-bold mb-4 text-gray-900">{title}</h1>
+      <div class="flex items-center text-gray-600 text-sm mb-4">
+        <time>{pubDate}</time>
+      </div>
+      {description && (
+        <p class="text-lg text-gray-600 italic">{description}</p>
+      )}
+    </header>
+    
+    <div class="prose prose-gray max-w-none">
+      <slot />
+    </div>
+    
+    <footer class="mt-12 pt-8 border-t border-gray-200">
+      <a href="/posts" class="text-gray-600 hover:text-gray-900 text-sm">
+        ← Back to Posts
+      </a>
+    </footer>
+  </article>
+</BaseLayout> 

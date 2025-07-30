@@ -1,0 +1,26 @@
+@import "tailwindcss";
+
+/* Computer Modern font import */
+@import url('https://fonts.googleapis.com/css2?family=Computer+Modern+Serif:wght@400;700&display=swap');
+
+/* Fallback for Computer Modern using similar serif fonts */
+@font-face {
+  font-family: 'Computer Modern';
+  src: url('https://cdn.jsdelivr.net/gh/aaaakshat/cm-web-fonts@latest/fonts/CMUSerif-Roman.woff2') format('woff2'),
+       url('https://cdn.jsdelivr.net/gh/aaaakshat/cm-web-fonts@latest/fonts/CMUSerif-Roman.woff') format('woff');
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Computer Modern';
+  src: url('https://cdn.jsdelivr.net/gh/aaaakshat/cm-web-fonts@latest/fonts/CMUSerif-Bold.woff2') format('woff2'),
+       url('https://cdn.jsdelivr.net/gh/aaaakshat/cm-web-fonts@latest/fonts/CMUSerif-Bold.woff') format('woff');
+  font-weight: 700;
+  font-style: normal;
+}
+
+/* Custom utility for Computer Modern font */
+.font-cm {
+  font-family: 'Computer Modern', 'Times New Roman', 'Times', serif;
+}

@@ -1,0 +1,20 @@
+{
+  "name": "personalwesite",
+  "type": "module",
+  "version": "0.0.1",
+  "scripts": {
+    "dev": "astro dev",
+    "build": "astro build",
+    "preview": "astro preview",
+    "astro": "astro"
+  },
+  "dependencies": {
+    "@astrojs/mdx": "^4.3.1",
+    "@tailwindcss/vite": "^4.1.11",
+    "astro": "^5.12.3"
+  },
+  "devDependencies": {
+    "@tailwindcss/typography": "^0.5.16",
+    "tailwindcss": "^4.1.11"
+  }
+}

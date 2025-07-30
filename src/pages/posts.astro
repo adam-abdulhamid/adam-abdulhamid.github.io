@@ -1,0 +1,35 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+
+// Get all post files
+const posts = await Astro.glob('./posts/*.md');
+
+// Sort posts by date (newest first)
+const sortedPosts = posts.sort((a, b) => 
+  new Date(b.frontmatter.pubDate).getTime() - new Date(a.frontmatter.pubDate).getTime()
+);
+---
+
+<BaseLayout title="Posts - Adam Abdulhamid">
+  <div class="max-w-3xl">
+    <h1 class="text-3xl font-bold mb-8 text-gray-900">Posts</h1>
+    
+    <div class="space-y-4">
+      {sortedPosts.map((post) => (
+        <div class="border-l-2 border-gray-200 pl-4">
+          <h2 class="text-xl font-medium">
+            <a href={post.url} class="text-gray-900 hover:text-gray-600 transition-colors">
+              {post.frontmatter.title}
+            </a>
+          </h2>
+        </div>
+      ))}
+      
+      {sortedPosts.length === 0 && (
+        <div class="text-center py-12 text-gray-500">
+          <p>No posts yet. Check back soon!</p>
+        </div>
+      )}
+    </div>
+  </div>
+</BaseLayout> 
