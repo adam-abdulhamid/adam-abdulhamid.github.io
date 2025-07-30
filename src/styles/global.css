@@ -1,7 +1,9 @@
-@import "tailwindcss";
-
 /* Computer Modern font import */
 @import url('https://fonts.googleapis.com/css2?family=Computer+Modern+Serif:wght@400;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 
 /* Fallback for Computer Modern using similar serif fonts */
 @font-face {
@@ -18,9 +20,4 @@
        url('https://cdn.jsdelivr.net/gh/aaaakshat/cm-web-fonts@latest/fonts/CMUSerif-Bold.woff') format('woff');
   font-weight: 700;
   font-style: normal;
-}
-
-/* Custom utility for Computer Modern font */
-.font-cm {
-  font-family: 'Computer Modern', 'Times New Roman', 'Times', serif;
 }
