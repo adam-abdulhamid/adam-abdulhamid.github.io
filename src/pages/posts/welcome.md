@@ -5,7 +5,7 @@ pubDate: "July 30th, 2025"
 description: "Welcome!"
 ---
 
-I have migrated my site from Hugo to[Astro](https://astro.build/).
+I have migrated my site from [Hugo](https://gohugo.io/) to [Astro](https://astro.build/).
 
 ## What's Coming
 
